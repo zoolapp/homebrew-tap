@@ -1,6 +1,6 @@
 cask "aime" do
-  version "0.1.4"
-  sha256 "b0ffc769308c2bc103af7f6e65ab6246fad4979ed3e371563319c3111d1be5e4"
+  version "0.1.5"
+  sha256 "f92597413abe0d682b2b22b9aad36997b378f3327fa647ee7f48a3d72b11dcd6"
 
   url "https://get.zool.app/aime/#{version}/AIME-#{version}.pkg"
   name "AIME"
