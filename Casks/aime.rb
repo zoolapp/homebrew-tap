@@ -1,6 +1,6 @@
 cask "aime" do
-  version "0.1.6"
-  sha256 "1dc58e4ed3db9b0db8011cb220a578c3a2aec926428896f1f48a2e3f9c3521e2"
+  version "0.1.7"
+  sha256 "a12ce695fdf396b3fa164bebaa61401d524c4ae906d5643224e0baf753bbcd0f"
 
   url "https://get.zool.app/aime/#{version}/AIME-#{version}.pkg"
   name "AIME"
@@ -39,7 +39,9 @@ cask "aime" do
   ]
 
   caveats <<~EOS
-    AIME registers itself as an input source during installation.
-    If it does not appear, add it in System Settings › Keyboard › Input Sources.
+    AIME registers itself as an input source during installation. After the first
+    install, macOS lists it only after you log out and back in (or restart) once.
+    If it still does not appear, add it in System Settings › Keyboard › Input Sources.
+    首次安装后需要注销或重启一次，艾么输入法才会出现在输入法列表里。
   EOS
 end
