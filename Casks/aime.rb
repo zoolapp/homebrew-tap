@@ -1,6 +1,6 @@
 cask "aime" do
-  version "0.1.11"
-  sha256 "c2981e2b68c10f6d777c7c37766de38d884f2ca4ad515e615aa59c0fcf7d2250"
+  version "0.1.12"
+  sha256 "a1e1c09112c6a339d7af59ab57465f7151dc8decc84e499a7ef1bb633ef792b6"
 
   url "https://get.zool.app/aime/#{version}/AIME-#{version}.pkg"
   name "AIME"
@@ -14,7 +14,7 @@ cask "aime" do
     end
   end
 
-  depends_on macos: :tahoe
+  depends_on macos: :sequoia
 
   pkg "AIME-#{version}.pkg"
 
